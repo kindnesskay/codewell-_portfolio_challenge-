@@ -1,0 +1,287 @@
+* {
+  border: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+  color: rgb(196, 194, 194);
+}
+img {
+  font-size: 12px;
+}
+body {
+  position: relative;
+  border: 1px solid blue;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  border: none;
+  overflow-y: scroll;
+  padding-bottom: 10px;
+}
+main {
+  position: relative;
+  padding-top: 10%;
+  max-height: 95%;
+  width: 100%;
+}
+/* Main styles  */
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.menu img {
+  display: none;
+}
+/* navigation bar */
+nav {
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  width: 100%;
+  max-height: 5%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+}
+nav p {
+  width: 30%;
+  font-size: 2vw;
+}
+li {
+  list-style: none;
+  font-size: 2.5vw;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.menu_content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.menu {
+  width: 70%;
+  display: flex;
+}
+/* top section */
+.top {
+  width: 60%;
+  margin-bottom: 3%;
+}
+.top h1 {
+  font-size: 3.5vw;
+  margin-bottom: 3%;
+}
+.top p {
+  font-size: 1.5vw;
+  font-weight: 100;
+}
+/* logos */
+.companies {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.companies img {
+  width: 10%;
+  height: 90%;
+  margin-bottom: 3%;
+}
+/* image and text */
+.platforms {
+  gap: 4%;
+  display: flex;
+  padding-bottom: 3%;
+  justify-content: space-between;
+}
+.platforms a {
+  font-weight: 800;
+  font-size: 4vw;
+}
+.platforms a::after {
+  content: "->";
+}
+.platforms img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 3%;
+}
+.platform_1 {
+  font-size: 1.5vw;
+  width: 48%;
+}
+.platform_2 {
+  font-size: 1.5vw;
+  width: 48%;
+}
+
+article {
+  padding: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  position: relative;
+  background-color: rgb(51, 61, 65);
+  width: 100%;
+  display: flex;
+  gap: 4%;
+}
+article p {
+  font-weight: 100;
+  font-size: 1.5vw;
+  margin-bottom: 3%;
+}
+article h2 {
+  margin-bottom: 3%;
+  font-size: 2.5vw;
+}
+.content_1 {
+  width: 48%;
+}
+.content_2 {
+  width: 48%;
+  text-align: left;
+}
+/*  */
+.contact {
+  padding-top: 5%;
+  font-size: 1.5vw;
+  font-weight: 100;
+  padding: 5%;
+}
+.text {
+  margin-bottom: 3%;
+}
+.get-in-touch {
+  height: 3vw;
+  width: 15%;
+  font-size: 1.2vw;
+  color: black;
+  background-color: yellow;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-height: 10vh;
+  padding: 5px;
+  background-color: rgb(51, 61, 65);
+  font-size: 2vw;
+}
+footer div {
+  width: 50%;
+  display: flex;
+  gap: 3%;
+  justify-content: flex-end;
+}
+footer img {
+  width: 5%;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .menu_content {
+    display: none;
+  }
+  .menu_content button{
+    width: fit-content;
+    height: fit-content;
+  }
+  .menu {
+    width: 50%;
+    position: relative;
+  }
+
+  .menu img {
+    display: block;
+    margin-left: 80%;
+    height: 10%;
+    width: 10%;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    padding: 0;
+  }
+  li{
+    width: fit-content;
+  }
+  nav {
+    padding-right: 0;
+  }
+  nav p {
+    width: 50%;
+  }
+  .top {
+    width: 100%;
+  }
+  .top h1 {
+    font-size: 7.5vw;
+  }
+  .top p {
+    font-size: 3vw;
+  }
+  /* logos */
+  .companies {
+    display: grid;
+    padding-left: 15%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .companies img {
+    width: 30%;
+  }
+  /* images */
+  .platforms {
+    display: block;
+  }
+  .platforms p {
+    font-size: 3vw;
+  }
+  .platform_1 {
+    width: 100%;
+  }
+  .platform_2 {
+    width: 100%;
+  }
+
+  article {
+    display: block;
+  }
+  .content_1 {
+    width: 100%;
+  }
+  article p {
+    font-size: 2.5vw;
+  }
+  article h2 {
+    font-size: 5vw;
+  }
+  .content_1 {
+    margin-bottom: 10%;
+  }
+  .content_2 {
+    width: 100%;
+  }
+
+  .contact .text {
+    width: 70%;
+  }
+  .text p {
+    font-size: 2.5vw;
+  }
+  .text h1 {
+    font-size: 4vw;
+  }
+
+  .mobile_menu {
+    position: absolute;
+    transition: all 1s;
+    width: 100%;
+    padding-bottom: 10vh;
+    background-color: black;
+    display: block;
+  }
+}

@@ -1,15 +1,11 @@
 ## codewell challenge
 --Developer portfolio
-
-
-## build with
+## RESPONSIVE DESIGN
+## built with
 -- Html
 -- Css
 -- javaSCript(for menu event) 
-## RESPONSIVE DESIGN
-
 ## screeshots 
-
 ![](./screeshot/Desktop_view.png)
 ![](./screeshot/mobile_view.png)
 

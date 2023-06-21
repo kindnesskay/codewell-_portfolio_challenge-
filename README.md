@@ -10,4 +10,4 @@
 ![mobile view ](/screeshots/mobile_view.png)
 
 ![full Desktop view](/screeshots/full_desktop.png)
-![full mobile view ](/screeshots/full.mobile.png)
+![full mobile view ](/screeshots/full_mobile.png)

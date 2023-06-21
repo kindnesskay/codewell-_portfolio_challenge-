@@ -6,8 +6,8 @@
 -- Css
 -- javaSCript(for menu event) 
 ## screeshots 
-![](./screeshot/Desktop_view.png)
-![](./screeshot/mobile_view.png)
+![desktop view](/screeshot/Desktop_view.png)
+![mobile view ](/screeshot/mobile_view.png)
 
-![](./screeshot/full_desktop.png)
-![](./screeshot/full.mobile.png)
+![full Desktop view](/screeshot/full_desktop.png)
+![full mobile view ](/screeshot/full.mobile.png)
